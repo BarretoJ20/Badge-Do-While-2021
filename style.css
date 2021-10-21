@@ -6,8 +6,9 @@
 
 :root {
   --bg: hsla(240, 6%, 13%, 1);
-  --main-font: 'Roboto', sans-serif;
   --text-color: hsla(240, 9%, 89%, 1);
+  --hover-link: hsla(28, 94%, 59%, 1);
+  --main-font: 'Roboto', sans-serif;
 }
 
 html,
@@ -52,6 +53,11 @@ a {
   margin-top: 0.25rem;
 }
 
+a:hover {
+  color: var(--hover-link);
+  transition: 0.3s;
+}
+
 p {
   margin-top: 2rem;
 }
@@ -64,6 +70,12 @@ ul {
   display: flex;
   gap: 0.5rem;
   justify-content: center;
+}
+li a {
+  transition: 0.3s;
+}
+li a:hover {
+  transform: translateY(-5px);
 }
 
 .container {
