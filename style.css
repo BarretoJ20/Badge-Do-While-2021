@@ -38,7 +38,7 @@ main {
 
   position: relative;
 }
-.stamp-rocket:hover {
+#stamp:hover {
   transform: rotate(180deg);
   transition: 2s;
 }
