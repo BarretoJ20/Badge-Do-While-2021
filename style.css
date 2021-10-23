@@ -38,7 +38,10 @@ main {
 
   position: relative;
 }
-
+span:hover {
+  transform: rotate(180deg);
+  transition: 2s;
+}
 h1 {
   font: 700 24px var(--main-font);
   margin-top: 1.5rem;
