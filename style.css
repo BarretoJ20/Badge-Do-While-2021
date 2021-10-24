@@ -104,9 +104,3 @@ li a:hover {
   object-fit: cover;
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
-
-/*Desktop*/
-
-@media (min-width: 960px) {
-  /**/
-}
