@@ -9,6 +9,7 @@
   --text-color: hsla(240, 9%, 89%, 1);
   --hover-link: hsla(28, 94%, 59%, 1);
   --main-font: 'Roboto', sans-serif;
+  --title-font: 'Roboto Mono', sans-serif;
 }
 
 html,
@@ -27,9 +28,12 @@ body {
 }
 
 main {
-  background-image: url(assets/background.svg);
-  width: 375px;
-  height: 812px;
+  background: url(assets/background.svg) no-repeat center/cover;
+  /*width: 375px;
+  height: 812px;*/
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
 }
 
 .avatar {
@@ -43,7 +47,7 @@ main {
   transition: 2s;
 }
 h1 {
-  font: 700 24px var(--main-font);
+  font: 700 24px var(--title-font);
   margin-top: 1.5rem;
 }
 
@@ -102,3 +106,7 @@ li a:hover {
 }
 
 /*Desktop*/
+
+@media (min-width: 960px) {
+  /**/
+}
