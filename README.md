@@ -1,5 +1,5 @@
 # Badge Do While 2021 
- Projeto desenvolvido durante a Next Level Week Heat.
+ Projeto mobile desenvolvido durante a Next Level Week Heat.
  
 
 <p align="center">
